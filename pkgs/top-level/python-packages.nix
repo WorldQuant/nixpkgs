@@ -3395,6 +3395,8 @@ in {
 
   exifread = callPackage ../development/python-modules/exifread { };
 
+  fastavro =  callPackage ../development/python-modules/fastavro { };
+
   fastimport = callPackage ../development/python-modules/fastimport { };
 
   fastpair = callPackage ../development/python-modules/fastpair { };
