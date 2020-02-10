@@ -4489,6 +4489,8 @@ in {
 
   langcodes = callPackage ../development/python-modules/langcodes { };
 
+  lifelines = callPackage ../development/python-modules/lifelines { };
+
   livestreamer = callPackage ../development/python-modules/livestreamer { };
 
   livestreamer-curses = callPackage ../development/python-modules/livestreamer-curses { };
