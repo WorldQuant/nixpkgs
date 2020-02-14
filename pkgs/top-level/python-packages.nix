@@ -6749,6 +6749,8 @@ in {
 
   yenc = callPackage ../development/python-modules/yenc { };
 
+  yellowbrick = callPackage ../development/python-modules/yellowbrick { };
+
   zeep = callPackage ../development/python-modules/zeep { };
 
   zeitgeist = disabledIf isPy3k
