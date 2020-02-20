@@ -1179,6 +1179,8 @@ in {
 
   pyscard = callPackage ../development/python-modules/pyscard { inherit (pkgs.darwin.apple_sdk.frameworks) PCSC; };
 
+  pyscaffold = callPackage ../development/python-modules/pyscaffold { };
+  
   pyschedule = callPackage ../development/python-modules/pyschedule { };
 
   pyscreenshot = callPackage ../development/python-modules/pyscreenshot { };
